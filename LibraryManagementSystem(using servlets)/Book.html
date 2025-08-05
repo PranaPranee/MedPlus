@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Library Management System</title>
+<style>
+	.button-class {
+		background-color: rgb(128, 128, 128);
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 4px;
+	}
+</style>
+</head>
+<body bgcolor="lavender">
+<center>
+	<h1>Book Management</h1>
+	<br>
+	<a href="AddBook.jsp" class="button-class">Add Book</a><br><br>
+<form action="BookController" method="post">
+
+		<input type="hidden" name="action" value="viewbook">
+		<button type="submit" class="button-class">View Books</button>
+	</form>
+</center>
+</body>
+</html>
+l>

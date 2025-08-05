@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Library Management System</title>
+<style>
+		.button-class {
+			background-color: rgb(128, 128, 128);
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+	</style>
+</head>
+<center>
+<body bgcolor="lavender"> 
+<h1>  Member Management  </h1>       
+<br>
+<a href="AddMember.jsp" class="button-class">Add Member</a><br>
+<form action="MemberController" method="get">
+    <input type="hidden" name="action" value="view">
+    <button type="submit" class="button-class">View Members</button>
+</form>
+
+</center>
+</html>
